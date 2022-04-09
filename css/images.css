@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: grid;
+    height: 95vh;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.gallery-image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.gallery-image4 {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+}
+
+.image-container {
+    height: 50%;
+    margin: 5rem auto;
+    width: 75%;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
